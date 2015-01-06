@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test form page</title>
+    </head>
+    <body>
+        <h1>Test form page</h1>
+        <p>Hello World!</p>
+        <form method="post" action="/service/feedback">
+            <fieldset>
+                <p><label for="name">Your name</label>:
+                    <input id="name" name="name" size="60" type="text" value=""></p>
+                <p><label for="email">Your email address</label>:
+                    <input id="email" name="email" size="60" type="text" value=""></p>
+                <p><label for="message">Your message</label>:</p>
+                <p><textarea id="message" name="message" rows="8" cols="60"></textarea></p>
+                <p><input type="submit" value="send"> <input type="reset" value="reset"></p>
+            </fieldset>
+        </form>
+    </body>
+</html>

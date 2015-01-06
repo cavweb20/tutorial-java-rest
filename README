@@ -1,0 +1,6 @@
+This directory contains an Eclipse project with the example source code.
+
+The dependencies of the code are loaded via the Maven plugin:
+  http://m2eclipse.sonatype.org/update/
+  
+  jetty:run jetty:stop
